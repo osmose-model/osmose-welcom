@@ -2,9 +2,9 @@
 
 ## Web-resources
 
-- Osmose web-site: [osmose-model.org](https://www.osmose-model.org/)
-- Osmose documentation: [documentation.osmose-model.org](https://www.documentation.osmose-model.org/)
-- Zenodo community: [https://zenodo.org/communities/osmose/](https://zenodo.org/communities/osmose/)
+- Osmose web-site: https://www.osmose-model.org/
+- Osmose documentation: https://www.documentation.osmose-model.org/
+- Zenodo community: https://zenodo.org/communities/osmose/
 
 ## Repositories
 
@@ -19,9 +19,19 @@ Osmose code and resources are hosted on GitHub. The Osmose organization is acces
 
 ## Softwares 
 
-The following softwares are strongly recommended:
+The following softwares are **required**:
+- JAVA (https://www.java.com/fr/download/): programming language. Needed to run the Osmose model.
+- Maven (https://maven.apache.org/): software project management and comprehension tool. Needed to compile Osmose (https://maven.apache.org/)
+- NetCDF (https://www.unidata.ucar.edu/downloads/netcdf/): library for manipulating array-oriented scientific data. Needed by the Osmose model.
+- R (https://www.r-project.org/): software environment for statistical computing and graphics. Needed to use the Osmose post-processing tools.
+
+The following softwares are *strongly recommended*:
+- RStudio (https://www.rstudio.com/products/rstudio/download/): an integrated development environment for R. 
 - Git (https://git-scm.com/downloads): version manager used to manage the code.
-- Visual Studio (https://code.visualstudio.com/): code editor
+- Visual Studio (https://code.visualstudio.com/): code editor. 
+
+Standard install instructions are given [here](http://www.documentation.osmose-model.org/astart.html), 
+Conda install instructions are given [here](https://github.com/osmose-model/osmose-conda)
 
 ## Code management
 
