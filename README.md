@@ -40,3 +40,11 @@ The code is managed using Git Flow workflow (https://git-flow.readthedocs.io/fr/
 - `master` (production branch): stable version of the code. Each commit of `master` is associated with a version number (`tag`). **Should not be updated directly**. 
 - `develop` (development branch): contains all new developments.
 - `feature/XXX` (feature branches): temporary branch dedicated to a certain task and that is ultimately merged with the `develop` branch
+
+## Structure of Osmose folder
+
+- `R` folder: contains functions related to the `R` package
+- `data-raw`: contains some data used in the vignettes and documentation
+- `demo`: contains some examples on how to run Osmose`
+- `inst`: contains resource files (should contain Java executable)
+- `java`: contains the Java core of the Osmose model.
