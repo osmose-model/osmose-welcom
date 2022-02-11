@@ -20,7 +20,7 @@ Osmose code and resources are hosted on GitHub. The Osmose organization is acces
 ## Softwares 
 
 The following softwares are **required**:
-- JAVA (https://www.java.com/fr/download/): programming language. Needed to run the Osmose model.
+- JAVA OpenJDK > 8 (https://www.java.com/fr/download/): programming language. Needed to run the Osmose model.
 - Maven (https://maven.apache.org/): software project management and comprehension tool. Needed to compile Osmose.
 - NetCDF (https://www.unidata.ucar.edu/downloads/netcdf/): library for manipulating array-oriented scientific data. Needed by the Osmose model.
 - R (https://www.r-project.org/): software environment for statistical computing and graphics. Needed to use the Osmose post-processing tools.
